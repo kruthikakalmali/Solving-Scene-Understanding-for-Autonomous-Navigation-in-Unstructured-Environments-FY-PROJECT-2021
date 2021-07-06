@@ -10,3 +10,6 @@ Semantic Segmentation: The segmentation challenge involves pixel level predictio
 This project will be using the mean Intersection over Union metric. For each class (except 26), the  True positives (TP), False Negatives (FN) and False positives (FP) are computed and all the prediction maps and ground truths will be resized to 720p using nearest neighbour algorithm over the entire test split of the dataset. Intersection over Union (IoU) will be computed for each class by the formula TP/(TP+FN+FP) and the mean value is taken as the metric (commonly known as mIoU) for the segmentation challenge.
 
 
+### DATASET
+INDIAN DRIVING DATASET
+https://idd.insaan.iiit.ac.in/dataset/download/
